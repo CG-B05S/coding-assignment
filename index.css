@@ -17,8 +17,12 @@
 }
 
 
+.box1{
+    transition: width 2s;
+}
+
 .box1:hover{
-    margin-left: 20px;
+    width: 290px;
     background-color: red;
 }
 
