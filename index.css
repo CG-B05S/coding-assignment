@@ -1,0 +1,90 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 30px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+   vertical-align: middle;
+
+}
+
+.box{
+    height: 250px;
+    
+    background-color: rgb(17, 236, 17);
+}
+
+
+.box1:hover{
+    margin-left: 20px;
+    background-color: red;
+}
+
+.box2:hover{
+    margin-left: -20px;
+    background-color: red;
+}
+
+.box3:hover{
+    margin-top: -20px;
+    background-color: red;
+}
+
+.box4:hover{
+    margin-top: 20px;
+    background-color: red;
+}
+
+.box5{
+    transition: transform .2s;
+}
+.box5:hover{
+    transform: scale(1.5);
+    background-color: red;
+}
+
+.box6{
+    transition: transform .2s;
+}
+.box6:hover{
+    transform: scale(0.5);
+    background-color: red;
+}
+
+.box7:hover{
+    border-radius: 50%;
+    background-color: red;
+}
+
+
+.box8:hover{
+   transform: scaleX(1.5)
+}
+
+.box9:hover{
+    transform: scaleY(1.5)
+ }
+
+
+
+.box10:hover{
+    transform: rotate(20deg);
+    background-color: red;
+}
+
+
+
+@media (max-width:480px) and (min-width:320px){
+    .container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        
+    }
+
+    .box{
+        height: 40px;
+       
+    }
+}
